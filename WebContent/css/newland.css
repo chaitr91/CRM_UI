@@ -1,0 +1,398 @@
+#comment>h2
+{
+	color:rgb(135, 156, 174);
+}
+.icon-font
+{
+	font-family: font-family: 'Passion One', cursive;
+	font-size:17px;
+	
+}
+
+.icon-font1
+{
+	font-family: 'Poiret One', cursive;
+	font-size:30px;
+	
+}
+
+
+.BackPartColor
+{
+	background-color: rgb(135, 156, 174);
+}
+
+ .logo-small 
+ {
+      color: white;
+      font-size: 50px;
+  }
+/* -------------------------------Register button----------------------------- */
+input[type=submit]
+{
+	border=none;
+	background-color:transparent;
+	display:black;
+	overflow:hidden;
+	cursor:pointer;
+	width:100px;
+	height:60px;
+	border:1px solid #000;
+	color:#000;
+	font-size:20px;
+	
+}
+
+input[type=submit]:hover
+{
+	opacity:0.7;
+}
+
+#reg1 /* -------img 1 quote id--------- */
+{
+		
+        height: 220px;
+        width: 220px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+}
+
+#reg2 /* -------img 2 quote id--------- */
+{
+		
+        height: 220px;
+        width: 220px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+}
+
+#reg3 /* -------img 3 quote id--------- */
+{
+		
+        height: 220px;
+        width: 220px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+}
+
+#reg /* ---- register button id --- */
+{
+		
+        height: 240px;
+        width: 320px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+        
+        padding-top: 350px;													
+    	padding-right:200px;												
+    	padding-bottom: 20px;												
+    	padding-left: 100px	;
+}
+
+    
+#quoteFont1
+{	
+		color:white;
+		font-size:45px;
+    	font-family: 'Poiret One', cursive;
+}
+
+#quoteFont2
+{	
+		color:rgb(128,128,128);
+		font-size:45px;
+    	font-family: 'Poiret One', cursive;
+}
+
+#quoteFont3
+{	
+		color:white;
+		font-size:45px;
+    	font-family: 'Poiret One', cursive;
+}
+
+form 
+{
+	padding-top: 0px;													
+    padding-right:200px;												
+    padding-bottom: 0px;												
+    padding-left: 100px	
+    
+}
+
+/* --------------------------------------------------------------------- */
+
+body, html
+{
+	margin:0;
+	font:1em "Open Sans",sans-serif;
+	text-align: center;
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+}
+
+
+.pad
+{
+	padding-top: 0px;													
+    padding-right: 0px;												
+    padding-bottom: 0px;												
+    padding-left: 0px	
+    
+}
+
+.logo
+{
+	height:50px;
+	padding:15px 30px;
+	font-size:3.0em;
+	line-height:50px;
+	color:rgb(255, 87, 0);
+	text-decoration: none;
+	font-family: 'Passion One', cursive;
+	
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% navigation bar %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+nav
+{
+	width: 100%;
+	heigth: 50px;
+	margin: 0px;
+	background: rgba(255,255,255,0.0);
+	z-index: 10;
+	position: absolute;
+	transition: all 0.3s;
+}
+
+
+
+nav:hover
+{
+	background: rgb(116, 135, 137);
+	
+	 
+}
+
+nav ul 
+{
+	line-height: 1.2;
+	
+
+}
+
+nav li
+{
+	display: block;
+	float:left;
+	list-style: none;
+	margin-right: 50px;
+	
+}
+
+
+nav li a
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 23px;
+	font-weight: 30;
+	color: black;
+	text-decoration: none;
+	opacity:0.4;
+	transition: all 0.3s ease-in;
+	letter-spacing:1px;
+}
+
+
+
+nav li a:hover
+{
+	opacity:1;
+	transition: all 0.3s ease-in;
+	
+}
+
+.dropdown-menu
+{
+	
+    background: rgb(116, 135, 137);
+    
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+ 
+ 
+.slider
+{
+	width:1000px;
+	height:550px;
+	overflow:hidden;
+	margin:30px auto;
+}
+
+.carousel-inner>.item>img 
+{
+
+    
+	width:1600px;
+	height:670px;
+	
+	
+}
+
+/* ------------------------------------------carousel--------------------------- */
+
+.container-fluid 
+ {
+      padding: 5px 5px;
+ }
+
+
+ @keyframes slide 
+  {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+ 
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 480px)
+   {
+    .logo {
+        font-size: 150px;
+    }
+  }
+ 
+ .conf>.carousel-inner > .item > img,
+.conf>.carousel-inner > .item > a > img 
+{
+      width: 100%;
+      margin: auto;
+}
+  
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+   .carousel-indicators li {
+      border-color: #f4511e;
+  }
+   .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+
+
+#comment
+{
+	padding-top: 100px;													
+    padding-right: 0px;												
+    padding-bottom: 30px;												
+    padding-left: 0px	
+    
+    
+}
+
+/* --------------------------- SLIDE SHOW ------------------------------ */
+
+#container 
+{
+        width: 100%;
+        height: 404px;
+        overflow: hidden;
+        background: #ff00ff;
+}
+#slideshow 
+{
+        height: 100%;
+        width: 100%;
+}
+
+#slideshow img 
+{
+        height: 100%;
+        width: 100%;
+}
+    
+#pager
+ {
+        text-align: center;
+        height: 120px;
+        width: 100%;
+        position: absolute;
+        bottom: 5%;
+        background: rgba(0,0,0,.5);
+        z-index: 1000;
+        opacity: 0;
+        transition: all 0.3s ease-in-out 0s;
+}
+
+#pager:hover 
+{
+       opacity: 1;
+}    
+    
+      
+#pager img 
+{
+		margin: 10px 5px;
+		opacity:0.3;
+		transition:all .3s ease-in-out 0s;
+}
+
+#pager img:hover 
+{
+		opacity:1;
+		transform:scale(1.05);
+		z-index:100;
+}
+		
+/* ------------------------------------------------------------------------ */
+ 
